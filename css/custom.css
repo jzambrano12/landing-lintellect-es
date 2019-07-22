@@ -1,0 +1,276 @@
+.text-lint {
+    color: #0c9fff;
+}
+
+.text-lint-second {
+
+}
+
+div.menu-wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+div.menu-wrapper > div {
+    width: 50%;
+}
+
+div.menu-wrapper > ul{
+    width: 50%;
+    display: flex;
+    justify-content: flex-end;
+}
+
+
+div.main-bg-lin {
+    background: url("../images/home/slide-transparent.png");
+}
+
+span.main-subtitle {
+    font-size: 40px;
+    color: #0c9fff;
+    font-weight: 400;
+}
+
+h1.wow {
+    font-size: 50px !important;
+}
+
+ul.welcome-list > li {
+    color: rgba(0,0,0,.50) !important;
+}
+
+p.available-soon {
+    color: #707070;
+    font-size: 12px !important;
+    margin-bottom: 0px !important;
+    margin-top: 50px !important;
+    width: 34%;
+    text-align: center;
+}
+
+.theme-main-header .button-group li a {
+    width: 150px;
+    border-radius: 5px;
+}
+
+.theme-main-header .button-group li a:hover, .theme-main-header .button-group li a.login:hover {
+    background: #0c9fff;
+    border-color: #0c9fff;
+    color: white;
+}
+
+div.logo > a > img {
+    width: 200px;
+}
+
+div.logo {
+    margin-bottom: 0 !important;
+}
+
+div.image-wrapper {
+    top: 120px !important;
+}
+
+.what-we-do .single-block:hover {
+    background: #fff;
+    -webkit-box-shadow: 0px 4px 70px 0px rgba(86, 103, 146, 0.15);
+    box-shadow: 0px 4px 70px 0px rgba(86, 103, 146, 0.15);
+}
+
+.what-we-do .single-block a:hover {
+    border: solid 2px #0c9fff;
+    background: #0c9fff !important;
+}
+
+.home-page-one .theme-button span {
+    border-radius: 5px;
+    box-shadow: 0 0 4px 0 rgba(12, 159, 255, 0.67);
+    border: solid 2px #0c9fff;
+    background: #0c9fff !important;
+
+}
+
+.what-we-do .single-block a {
+    border-radius: 5px;
+    box-shadow: 0 0 4px 0 rgba(12, 159, 255, 0.67);
+    border: solid 2px rgba(12, 159, 255, 0.67);
+    background-color: #fcfefe;
+    color: #0c9fff;
+}
+
+.home-page-one .theme-title-two:before {
+    background: #0c9fff !important;
+}
+
+.advance-feature .feature-warpper .single-feature.bg-one {
+    background-image: linear-gradient(222deg, #63e2d7, #3c62c7);
+}
+
+.advance-feature .feature-warpper .single-feature.bg-three {
+    background-image: linear-gradient(47deg, #2099f7, #29edc9);
+}
+
+.advance-feature .feature-warpper .single-feature.bg-two {
+    background-image: linear-gradient(210deg, #ff5b23, #ff8054);
+}
+
+.advance-feature .feature-warpper .single-feature.bg-four {
+    background-image: linear-gradient(10deg, #ffbc00, rgba(255, 210, 84, 0.84));
+}
+
+.advance-feature .feature-warpper .single-feature {
+    padding: 60px 25px !important;
+}
+
+.boost-your-phone .boster-image-wrapper {
+    position: relative !important;
+    width: 50% !important;
+    top: 0;
+    left: 0;
+}
+
+.boster-image-wrapper {
+    display: flex;
+    justify-content: center;
+}
+
+.single-feature > img {
+margin: 0 auto 20px;
+}
+
+.boost-your-phone .text {
+    padding: 0 !important;
+}
+
+..boost-your-phone .theme-title-two {
+    margin-bottom: 20px !important;
+}
+
+.boost-your-phone > div > div:nth-child(2) {
+    display: flex;
+    align-items: center;
+}
+
+.question-box {
+    margin: 30px 0px;
+    padding: 30px 45px;
+    border-radius: 5px;
+    border: solid 1px #d3d4dc;
+    background-color: white;
+    transition: all ease-in-out .2s;
+}
+
+.question-box:hover {
+    box-shadow: 0px 10px 25px 0 rgba(0, 0, 0, 0.1);
+    background-color: white;
+}
+
+.question-box > h6{
+    margin-bottom: 30px;
+}
+
+.testimonial-image > img {
+    width: 50px;
+    height: 50px;
+    border-radius: 30px;
+}
+
+.our-team {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+}
+
+.our-team >img {
+    width: 212px;
+    height: 215px;
+    border-radius: 50%;
+    margin-bottom: 25px;
+}
+
+.our-team > div.nicolas-background {
+    width: 212px;
+    height: 215px;
+    border-radius: 50%;
+    margin-bottom: 25px;
+    background: url("../images/nicolas-garcia.jpeg");
+    background-size: cover;
+    background-position: center;
+}
+
+.our-team > div.juan-background {
+    width: 212px;
+    height: 215px;
+    border-radius: 50%;
+    margin-bottom: 25px;
+    background: url("../images/juan-diego.jpeg");
+    background-size: cover;
+    background-position: center;
+}
+
+.our-team > div.esneyder-background {
+    width: 212px;
+    height: 215px;
+    border-radius: 50%;
+    margin-bottom: 25px;
+    background: url("../images/esneyder-alvarez.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+.our-team > div.alexander-background {
+    width: 212px;
+    height: 215px;
+    border-radius: 50%;
+    margin-bottom: 25px;
+    background: url("../images/alexander-hincapie.jpeg");
+    background-size: cover;
+    background-position: center;
+}
+
+.our-team > h6 {
+    color: #3a3161;
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+.our-team > span {
+    color: #575a73;
+    font-size: 16px;
+}
+
+.home-page-one .testimonial-section .main-bg-wrapper .main-slider-wrapper {
+    background: #016db3;
+}
+
+
+/*Responsive*/
+
+@media(max-width: 768px) {
+    div.logo > a > img {
+        width: 250px;
+        height: 75px;
+    }
+    #theme-main-banner .camera_caption>div {
+        margin-top: 80px;
+    }
+    p.available-soon {
+        width: 100% !important;
+    }
+    div.main-container {
+        text-align: center;
+    }
+}
+
+.google-map-area .map-image-warpper .placeholder .map-meta-data:before {
+    content: '';
+    top: -20%;
+}
+
+.google-map-area .map-image-warpper .placeholder .map-meta-data {
+    left: -25px;
+    bottom: -180px;
+}
