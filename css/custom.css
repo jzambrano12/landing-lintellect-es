@@ -1,3 +1,7 @@
+div.main-container > div > h1 {
+    margin-bottom: 0px !important;
+}
+
 .text-lint {
     color: #0c9fff;
 }
@@ -28,9 +32,14 @@ div.main-bg-lin {
 }
 
 span.main-subtitle {
+    width: 330px;
     font-size: 40px;
     color: #0c9fff;
     font-weight: 400;
+    display: flex;
+    flex-wrap: wrap;
+    line-height: 50px;
+    margin-bottom: 50px;
 }
 
 h1.wow {
